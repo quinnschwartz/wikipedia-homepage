@@ -2,11 +2,9 @@
   float: left;
   height: 100%;
   width: 170px;
+  position: absolute;
+  display: inline-block;
 }
-
-/*.main-float {
-
-}*/
 
 /*.sidebar {
   top: 0;
@@ -18,15 +16,21 @@
 }*/
 
 .well {
-  height: 200px;
+  height: 175px;
 }
 
 #head-link ul {
   padding: 10% 0% 10%;
 }
+
 #main-logo {
   width: 160px;
 }
+
+#main-body {
+  display: block;
+}
+
 .green-panel {
   background-color: #f5fffa;
 }
@@ -35,7 +39,17 @@
   background-color: #f5faff;
 }
 
+.red-panel {
+  background-color: #faf5ff
+}
+
 .panel-title {
   color: black;
   font-weight: bold;
+}
+
+#wedding {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
