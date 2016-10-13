@@ -1,17 +1,41 @@
-.sidebar {
-  position: absolute;
+.side-float {
+  float: left;
+  height: 100%;
+  width: 170px;
+}
+
+/*.main-float {
+
+}*/
+
+/*.sidebar {
   top: 0;
   width: 170px;
   height: 100%;
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
+}*/
 
+.well {
+  height: 200px;
+}
 
 #head-link ul {
   padding: 10% 0% 10%;
 }
 #main-logo {
   width: 160px;
+}
+.green-panel {
+  background-color: #f5fffa;
+}
+
+.blue-panel {
+  background-color: #f5faff;
+}
+
+.panel-title {
+  color: black;
+  font-weight: bold;
 }
